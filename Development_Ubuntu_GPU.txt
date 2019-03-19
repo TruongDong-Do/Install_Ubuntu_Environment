@@ -1,0 +1,220 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+INSTALL UBUNTU 16.04
+--------------------------
+0. Create boot USB:
+- Download Ubuntu 16.04 LTS
+- Use Universal USB Installer to create boot USB
+(Ubuntu --> Fat32)
+
+1. Boot option:
+-Choose USB boot --> Install Ubuntu
+
+2. DISK:
+Chose something else option when install. 
+- swap area: Ram x 4
+- ext4: /
+
+3. Install Google Chrome:
+- Download Google Chrome.deb 
+- sudo dpkg -i google-chrome-stable_current_amd64.deb
+- sudo apt-get install -f
+
+4. Install Teamviewer.
+- Download Teamviewer.deb 
+- sudo dpkg -i teamviewer_14.1.18533_amd64.deb
+- sudo apt-get install -f
+
+5. Install iBus-Unikey.
+- sudo apt-get install ibus-unikey
+- ibus restart
+--> Text Entry --> Vietnamese(ibus)
+- sudo reboot
+
+*****************************************
+6. Install Nvidia Driver
+- Setting --> Software & Updates --> Additional Drivers --> Nvidia -- Apply changes.
+- nvidia-smi
+
+Lam theo huong dan de cai tensorflow-gpu:(CUDA 10 + CuDNN 7)
+https://www.tensorflow.org/install/gpu
+https://www.pyimagesearch.com/2017/09/27/setting-up-ubuntu-16-04-cuda-gpu-for-deep-learning-with-python/
+
+Check CUDA:
+ncvv --version
+
+Check Tensorflow: 
+- import tensorflow as tf
+- tf.__version__
+- hello = tf.constant('Hello, TensorFlow!')
+- print(sess.run(hello))
+- a = tf.constant(10)
+- b = tf.constant(5)
+- sess = tf.Session()
+- exit()
+
+
+7. Install VSCode
+- Download VSCode.deb
+- sudo dpkg -i code_...-.deb
+
+8. Install GitKraken
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
