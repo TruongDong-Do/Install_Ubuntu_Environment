@@ -21,6 +21,7 @@ INSTALL UBUNTU 16.04
 ---------------------------
 - Download *Google Chrome.deb*
 .. code:: bash
+
     $ sudo dpkg -i google-chrome-stable_current_amd64.deb
     $ sudo apt-get install -f
 
@@ -28,5 +29,6 @@ INSTALL UBUNTU 16.04
 ------------------------
 - Download *Teamviewer.deb*
 .. code:: bash
+
     $ sudo dpkg -i teamviewer_14.1.18533_amd64.deb
     $ sudo apt-get install -f
