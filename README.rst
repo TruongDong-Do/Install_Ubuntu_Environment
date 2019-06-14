@@ -1,4 +1,3 @@
-# Install_Ubuntu_Environment
 Install Deep Learning Environment on UBUNTU
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **Author: Truong Dong Do**
