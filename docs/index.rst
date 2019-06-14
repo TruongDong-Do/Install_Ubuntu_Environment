@@ -7,7 +7,7 @@ Welcome to Install Deep Learning Evironment on Ubuntu's documentation!
 ======================================================================
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 2
    :caption: Contents:
    Development_Ubuntu_GPU
    Development_Environment_Installation_Guideline
