@@ -1,5 +1,4 @@
 .. raw:: html
-
    
     <h1 align="center"> Install Deep Learning Environment on UBUNTU </h1>
     
