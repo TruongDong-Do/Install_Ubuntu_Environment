@@ -1,36 +1,36 @@
 INSTALL UBUNTU 16.04
 --------------------------
-0. Create boot USB:
+# 0. Create boot USB:
 - Download Ubuntu 16.04 LTS
 - Use Universal USB Installer to create boot USB
 (Ubuntu --> Fat32)
 
-1. Boot option:
+# 1. Boot option:
 -Choose USB boot --> Install Ubuntu
 
-2. DISK:
+# 2. DISK:
 Chose something else option when install.
 - swap area: Ram x 4
 - ext4: /
 
-3. Install Google Chrome:
+# 3. Install Google Chrome:
 - Download Google Chrome.deb
 - sudo dpkg -i google-chrome-stable_current_amd64.deb
 - sudo apt-get install -f
 
-4. Install Teamviewer.
+# 4. Install Teamviewer.
 - Download Teamviewer.deb
 - sudo dpkg -i teamviewer_14.1.18533_amd64.deb
 - sudo apt-get install -f
 
-5. Install iBus-Unikey.
+# 5. Install iBus-Unikey.
 - sudo apt-get install ibus-unikey
 - ibus restart
 --> Text Entry --> Vietnamese(ibus)
 - sudo reboot
 
 *****************************************
-6. Install Nvidia Driver
+# 6. Install Nvidia Driver
 - Setting --> Software & Updates --> Additional Drivers --> Nvidia -- Apply changes.
 - nvidia-smi
 
@@ -52,13 +52,13 @@ Check Tensorflow:
 - exit()
 
 
-7. Install VSCode
+# 7. Install VSCode
 - Download VSCode.deb
 - sudo dpkg -i code_...-.deb
 
-8. Install GitKraken
+# 8. Install GitKraken
 
-9. Install Sublime Text 3
+# 9. Install Sublime Text 3
 - wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | sudo apt-key add -
 - sudo apt-get install apt-transport-https
 - echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
