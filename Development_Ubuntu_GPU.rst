@@ -3,22 +3,22 @@ INSTALL UBUNTU 16.04
 **Author: Truong Dong Do**
 
 0. Create boot USB:
-~~~~~~~~~~~~~~~~~~~
+-----------------------
 - Download Ubuntu 16.04 LTS
 - Use Universal USB Installer to create boot USB (Ubuntu --> Fat32)
 
 1. Boot option:
-~~~~~~~~~~~~~~~
+---------------
 - Choose USB boot --> Install Ubuntu
 
 2. DISK:
-~~~~~~~~
+--------
 - Chose something else option when installing.
 - swap area: Ram
 - ext4: /
 
 3. Install Google Chrome:
-~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------
 - Download *Google Chrome.deb*
 
 .. code:: bash
@@ -27,7 +27,7 @@ INSTALL UBUNTU 16.04
     $ sudo apt-get install -f
 
 4. Install Teamviewer.
-~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 - Download *Teamviewer.deb*
 
 .. code:: bash
@@ -36,7 +36,7 @@ INSTALL UBUNTU 16.04
     $ sudo apt-get install -f
     
 5. Install iBus-Unikey.
-~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------
 .. code:: bash
 
     $ sudo apt-get install ibus-unikey
@@ -49,7 +49,7 @@ INSTALL UBUNTU 16.04
     $ sudo reboot
 
 6. Install Nvidia Driver
-~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------
 
 - Setting --> Software & Updates --> Additional Drivers --> Nvidia -- Apply changes.
 - Test NVIDIA Driver:
@@ -86,7 +86,7 @@ Check Tensorflow:
 
 
 7. Install VSCode
-~~~~~~~~~~~~~~~~~
+-----------------
 - Download *VSCode.deb*
 
 .. code:: bash 
@@ -94,10 +94,10 @@ Check Tensorflow:
     $ sudo dpkg -i code_...-.deb
 
 8. Install GitKraken
-~~~~~~~~~~~~~~~~~~~~
+--------------------
 
 9. Install Sublime Text 3
-~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 .. code:: bash
 
