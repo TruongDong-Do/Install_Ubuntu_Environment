@@ -1,4 +1,4 @@
-INSTALL UBUNTU 16.04
+Install Deep Learning Environment on UBUNTU
 ~~~~~~~~~~~~~~~~~~~~
 **Author: Truong Dong Do**
 
