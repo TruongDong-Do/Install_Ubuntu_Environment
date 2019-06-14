@@ -71,8 +71,8 @@ Docs <https://install-ubuntu-environment.readthedocs.io/en/latest/>`__
     $ nvidia-smi
 
 
-'Lam theo huong dan de cai tensorflow-gpu:(CUDA 10 + CuDNN 7)'
-
+Lam theo huong dan de cai tensorflow-gpu:(CUDA 10 + CuDNN 7)
+=============================================================
 - https://www.tensorflow.org/install/gpu
 - https://www.pyimagesearch.com/2017/09/27/setting-up-ubuntu-16-04-cuda-gpu-for-deep-learning-with-python/
 
