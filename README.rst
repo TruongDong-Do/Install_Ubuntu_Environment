@@ -5,7 +5,7 @@
     
     <p align="center">
       <a href="https://install-ubuntu-environment.readthedocs.io/en/latest/?badge=latest" alt="Documentation">
-        <img src="https://install-ubuntu-environment.readthedocs.io/en/latest/?badge=latest" /></a>
+        <img src="https://install-ubuntu-environment.readthedocs.io/en/latest/?version=latest" /></a>
     </p>
 
 **Author: Truong Dong Do**
