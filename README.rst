@@ -2,6 +2,11 @@
    
     <h1 align="center"> Install Deep Learning Environment on UBUNTU </h1>
     
+    <a href='https://install-ubuntu-environment.readthedocs.io/en/latest/?badge=latest'>
+    <img src='https://readthedocs.org/projects/install-ubuntu-environment/badge/?version=latest' alt='Documentation Status' />
+      </a>
+      
+    
 **Author: Truong Dong Do**
 
 Documentation
