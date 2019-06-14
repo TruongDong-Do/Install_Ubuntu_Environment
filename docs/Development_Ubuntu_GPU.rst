@@ -1,5 +1,10 @@
 Install Deep Learning Environment on UBUNTU
 ~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://readthedocs.org/projects/install-ubuntu-environment/badge/?version=latest
+:target: https://install-ubuntu-environment.readthedocs.io/en/latest/?badge=latest
+:alt: Documentation Status
+
 **Author: Truong Dong Do**
 
 0. Create boot USB:
