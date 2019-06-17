@@ -11,8 +11,7 @@ Welcome to Install Deep Learning Evironment on Ubuntu's documentation!
    :caption: Contents:
    
    Development_Ubuntu_GPU
-   images/index
-
+   
 Indices and tables
 ==================
 
