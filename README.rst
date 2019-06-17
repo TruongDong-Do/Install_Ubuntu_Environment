@@ -225,3 +225,17 @@ Check Tensorflow:
         "use_simple_full_screen": true,
         "word_wrap": false
     }
+10. Install PyTorch
+-------------------------
+- `PyTorch <https://pytorch.org/get-started/locally/>`__
+
+.. code:: bash
+
+	$ pip3 install https://download.pytorch.org/whl/cu100/torch-1.1.0-cp35-cp35m-linux_x86_64.whl
+   	$ pip3 install https://download.pytorch.org/whl/cu100/torchvision-0.3.0-cp35-cp35m-linux_x86_64.whl
+	
+.. image:: images/torch_install.jpg
+    :width: 200px
+    :align: center
+    :height: 100px
+    :alt: alternate text
