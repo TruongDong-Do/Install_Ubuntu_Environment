@@ -145,4 +145,3 @@ Check Tensorflow:
     :width: 200px
     :align: center
     :height: 100px
-    :alt: alternate text
