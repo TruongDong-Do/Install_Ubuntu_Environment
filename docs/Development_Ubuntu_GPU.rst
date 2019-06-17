@@ -7,6 +7,11 @@
       </a>
 **Author: Truong Dong Do**
 
+Documentation
+-------------
+Latest **documentation** is avaliable on `Read the
+Docs <https://install-ubuntu-environment.readthedocs.io/en/latest/>`__
+
 0. Create boot USB:
 -----------------------
 - Download Ubuntu 16.04 LTS
