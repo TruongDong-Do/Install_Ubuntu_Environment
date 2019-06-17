@@ -129,7 +129,7 @@ Check Tensorflow:
 - Go to Preferences --> Setings --> User:
 
 - Preferences.sublime-settings: 
-:download:`config_SublimeText.json <config_SublimeText.json`
+ `config_SublimeText.json <config_SublimeText.json>`__
 	
 10. Install PyTorch
 -------------------------
