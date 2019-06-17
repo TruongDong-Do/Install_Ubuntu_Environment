@@ -123,99 +123,19 @@ Check Tensorflow:
 - Go to Preferences --> Setings --> User:
 
 - Preferences.sublime-settings:
+ `config_SublimeText.json <config_SublimeText.json>`__
+	
+10. Install PyTorch
+-------------------------
+- `PyTorch <https://pytorch.org/get-started/locally/>`__
 
-.. code:: json
-    
-    {
-        "bold_folder_labels": true,
-        "caret_extra_width": 1,
-        "caret_style": "phase",
-        "close_windows_when_empty": false,
-        "color_scheme": "Packages/Predawn/predawn.tmTheme",
-        "copy_with_empty_selection": false,
-        "drag_text": false,
-        "draw_minimap_border": true,
-        "draw_white_space": "none",
-        "enable_tab_scrolling": false,
-        "ensure_newline_at_eof_on_save": true,
-        "file_exclude_patterns":
-        [
-            "*.pyc",
-            "*.pyo",
-            "*.exe",
-            "*.dll",
-            "*.obj",
-            "*.o",
-            "*.a",
-            "*.lib",
-            "*.so",
-            "*.dylib",
-            "*.ncb",
-            "*.sdf",
-            "*.suo",
-            "*.pdb",
-            "*.idb",
-            ".DS_Store",
-            "*.class",
-            "*.psd",
-            "*.sublime-workspace"
-        ],
-        "font_face": "Source Code Pro",
-        "font_options":
-        [
-            "no_round"
-        ],
-        "font_size": 14,
-        "highlight_line": true,
-        "highlight_modified_tabs": true,
-        "ignored_packages":
-        [
-            "ActionScript",
-            "AppleScript",
-            "ASP",
-            "D",
-            "Diff",
-            "Erlang",
-            "Graphviz",
-            "Groovy",
-            "HTML-CSS-JS Prettify",
-            "Lisp",
-            "Lua",
-            "Objective-C",
-            "OCaml",
-            "Rails",
-            "Ruby",
-            "Vintage"
-        ],
-        "installed_packages":[
-            "Anaconda",
-            "BracketHighlighter",
-            "Material Theme",
-            "Predawn",
-            "SideBarEnhancements"
-        ],
-        "line_padding_bottom": 1,
-        "line_padding_top": 1,
-        "match_brackets_content": false,
-        "match_selection": false,
-        "match_tags": false,
-        "material_theme_accent_graphite": true,
-        "material_theme_compact_sidebar": true,
-        "mini_diff": false,
-        "open_files_in_new_window": false,
-        "overlay_scroll_bars": "enabled",
-        "preview_on_click": false,
-        "scroll_past_end": true,
-        "scroll_speed": 5.0,
-        "show_definitions": false,
-        "show_encoding": true,
-        "show_errors_inline": false,
-        "show_full_path": false,
-        "sidebar_default": true,
-        "swallow_startup_errors": true,
-        "theme": "Material-Theme-Darker.sublime-theme",
-        "translate_tabs_to_spaces": true,
-        "trim_trailing_white_space_on_save": true,
-        "use_simple_full_screen": true,
-        "word_wrap": false
-    }
+.. code:: bash
+
+	$ pip3 install https://download.pytorch.org/whl/cu100/torch-1.1.0-cp35-cp35m-linux_x86_64.whl
+   	$ pip3 install https://download.pytorch.org/whl/cu100/torchvision-0.3.0-cp35-cp35m-linux_x86_64.whl
+	
+.. image:: images/torch_install.jpg
+    :width: 200px
+    :align: center
+    :height: 100px
+    :alt: alternate text
