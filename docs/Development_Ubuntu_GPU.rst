@@ -140,7 +140,7 @@ Check Tensorflow:
 	$ pip3 install https://download.pytorch.org/whl/cu100/torch-1.1.0-cp35-cp35m-linux_x86_64.whl
    	$ pip3 install https://download.pytorch.org/whl/cu100/torchvision-0.3.0-cp35-cp35m-linux_x86_64.whl
 	
-.. image:: https://github.com/TruongDong-Do/Install_Ubuntu_Environment/blob/master/images/torch_install.jpg
+.. image:: /images/torch_install.jpg
     :width: 200px
     :align: center
     :height: 100px
