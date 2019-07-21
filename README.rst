@@ -23,7 +23,7 @@ Docs <https://install-ubuntu-environment.readthedocs.io/en/latest/>`__
 ---------------
 - Choose USB boot --> Install Ubuntu
 
-2. DISK
+2. DISK____ 
 --------
 - Chose something else option when installing.
 - swap area: Ram
