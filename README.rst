@@ -70,6 +70,8 @@ Docs <https://install-ubuntu-environment.readthedocs.io/en/latest/>`__
 
     $ nvidia-smi
 
+Install python
+https://tecadmin.net/install-python-3-6-ubuntu-linuxmint/
 
 Lam theo huong dan de cai tensorflow-gpu:(CUDA 10 + CuDNN 7)
 =============================================================
