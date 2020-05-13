@@ -77,7 +77,8 @@ Lam theo huong dan de cai tensorflow-gpu:(CUDA 10 + CuDNN 7)
 =============================================================
 - https://www.tensorflow.org/install/gpu
 - https://www.pyimagesearch.com/2017/09/27/setting-up-ubuntu-16-04-cuda-gpu-for-deep-learning-with-python/
-
+Work with conda:
+- https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/
 Work with virtualenv and virtualenvwrapper: 
 - https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html#showvirtualenv
 Make a new virtual environment:
