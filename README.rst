@@ -82,6 +82,7 @@ Work with conda:
 
 Work with virtualenv and virtualenvwrapper: 
 - https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html#showvirtualenv
+
 Make a new virtual environment:
 
 .. code:: bash 
