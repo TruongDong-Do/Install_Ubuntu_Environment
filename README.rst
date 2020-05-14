@@ -9,6 +9,12 @@
     
 **Author: Truong Dong Do**
 
+Note:
+If you need to install on Windows, refer following links:
+
+- https://blog.quantinsti.com/install-tensorflow-gpu/
+- https://towardsdatascience.com/installing-tensorflow-with-cuda-cudnn-and-gpu-support-on-windows-10-60693e46e781
+
 Documentation
 -------------
 Latest **documentation** is avaliable on `Read the
