@@ -79,7 +79,7 @@ Docs <https://install-ubuntu-environment.readthedocs.io/en/latest/>`__
 Install python
 https://tecadmin.net/install-python-3-6-ubuntu-linuxmint/
 
-Lam theo huong dan de cai tensorflow-gpu:(CUDA 10 + CuDNN 7)
+Follow these instrutions to install tensorflow-gpu:(CUDA 10 + CuDNN 7)
 =============================================================
 - https://www.tensorflow.org/install/gpu
 - https://www.pyimagesearch.com/2017/09/27/setting-up-ubuntu-16-04-cuda-gpu-for-deep-learning-with-python/
