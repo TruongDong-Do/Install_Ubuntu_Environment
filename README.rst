@@ -84,8 +84,10 @@ Follow these instrutions to install tensorflow-gpu:(CUDA 10 + CuDNN 7)
 - https://www.tensorflow.org/install/gpu
 - https://www.pyimagesearch.com/2017/09/27/setting-up-ubuntu-16-04-cuda-gpu-for-deep-learning-with-python/
 Work with conda:
-- https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/
-- Install cudatoolkit by anaconda: https://anaconda.org/anaconda/cudatoolkit
+- https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/\
+
+- Install cudatoolkit by anaconda: https://anaconda.org/anaconda/cudatoolkit\
+
 - Install cudnn by anaconda: https://anaconda.org/anaconda/cudnn
 
 
