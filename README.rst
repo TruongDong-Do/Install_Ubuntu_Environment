@@ -108,7 +108,7 @@ Check CUDA:
 
     $ ncvv --version
 
-Check Tensorflow:
+Check Tensorflow 1.x:
 
 .. code:: python
 
