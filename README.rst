@@ -73,8 +73,6 @@ Follow these instrutions to install tensorflow-gpu:(CUDA 10 + CuDNN 7)
 - https://www.tensorflow.org/install/gpu (*official)
 
 - Add the PATH to bashrc file
--------------------
-
 .. code:: bash
 
     $ nano ~/.bashrc   
