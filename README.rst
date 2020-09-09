@@ -68,8 +68,6 @@ Docs <https://install-ubuntu-environment.readthedocs.io/en/latest/>`__
 
 6. Install Nvidia Driver/ CUDA / CuDNN
 ------------------------
-Install python: https://tecadmin.net/install-python-3-6-ubuntu-linuxmint/
-
 Follow these instrutions to install tensorflow-gpu:(CUDA 10 + CuDNN 7)
 =============================================================
 - https://www.tensorflow.org/install/gpu (*official)
@@ -98,10 +96,17 @@ https://anaconda.org/anaconda/cudatoolkit\
 
 https://anaconda.org/anaconda/cudnn
 
-2/ Install the virtualenv and virtualenvwrapper: 
+2/ Virtualenv and virtualenvwrapper: 
 ------------------------
+- Install python: 
 
-  https://www.pyimagesearch.com/2017/09/27/setting-up-ubuntu-16-04-cuda-gpu-for-deep-learning-with-python/
+https://tecadmin.net/install-python-3-6-ubuntu-linuxmint/
+
+https://docs.python-guide.org/starting/install3/linux/
+
+- Install the virtualenv and virtualenvwrapper:
+
+https://www.pyimagesearch.com/2017/09/27/setting-up-ubuntu-16-04-cuda-gpu-for-deep-learning-with-python/
 - Work with virtualenv and virtualenvwrapper: 
   
   https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html#showvirtualenv
