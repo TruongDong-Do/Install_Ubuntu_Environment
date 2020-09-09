@@ -75,18 +75,17 @@ Follow these instrutions to install tensorflow-gpu:(CUDA 10 + CuDNN 7)
 - https://www.tensorflow.org/install/gpu (*official)
 
 - Check NVIDIA Driver:
-
 .. code:: bash
 
     $ nvidia-smi
 
 Here we have 2 options to work with environments:
-
+------------------------
 1/ Install conda: (Recommend)
+------------------------
 
 https://docs.anaconda.com/anaconda/install/linux/
-
-  Work with conda: (create new conda environment): 
+- Work with conda (create new conda environment): 
   
   https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/\
 - Install cudatoolkit by anaconda: 
@@ -100,6 +99,7 @@ https://anaconda.org/anaconda/cudatoolkit\
 https://anaconda.org/anaconda/cudnn
 
 2/ Install the virtualenv and virtualenvwrapper: 
+------------------------
 
 https://www.pyimagesearch.com/2017/09/27/setting-up-ubuntu-16-04-cuda-gpu-for-deep-learning-with-python/
 - Work with virtualenv and virtualenvwrapper: 
