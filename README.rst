@@ -72,6 +72,21 @@ Follow these instrutions to install tensorflow-gpu:(CUDA 10 + CuDNN 7)
 =============================================================
 - https://www.tensorflow.org/install/gpu (*official)
 
+- Add the PATH to bashrc file
+-------------------
+
+.. code:: bash
+
+    $ nano ~/.bashrc   
+
+- Add the PATH: 
+.. code:: bash
+
+	$ export PATH=/usr/local/cuda/bin${PATH:+:${PATH}}
+	$ export LD_LIBRARY_PATH=/usr/local/cuda/extras/CUPTI/lib64${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+	$ export LD_LIBRARY_PATH=/usr/local/cuda/lib64:${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+	$ export LD_LIBRARY_PATH=/usr/local/cuda-10.2/targets/x86_64-linux/lib:${LD_LIBRARY_PATH:+:${LD_LIBRARY_PATH}}
+
 - Check NVIDIA Driver:
 .. code:: bash
 
