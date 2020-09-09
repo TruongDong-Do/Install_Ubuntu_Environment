@@ -68,8 +68,7 @@ Docs <https://install-ubuntu-environment.readthedocs.io/en/latest/>`__
 
 6. Install Nvidia Driver/ CUDA / CuDNN
 ------------------------
-Install python
-https://tecadmin.net/install-python-3-6-ubuntu-linuxmint/
+Install python: https://tecadmin.net/install-python-3-6-ubuntu-linuxmint/
 
 Follow these instrutions to install tensorflow-gpu:(CUDA 10 + CuDNN 7)
 =============================================================
@@ -83,39 +82,47 @@ Follow these instrutions to install tensorflow-gpu:(CUDA 10 + CuDNN 7)
 
 Here we have 2 options to work with environments:
 
-1/ Install conda:
+1/ Install conda: (Recommend)
 
-- https://docs.anaconda.com/anaconda/install/linux/
+https://docs.anaconda.com/anaconda/install/linux/
 
-  Work with conda: ( create new conda environment)
-- https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/\
+  Work with conda: (create new conda environment): 
+  
+  https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/\
+- Install cudatoolkit by anaconda: 
 
-- Install cudatoolkit by anaconda: https://anaconda.org/anaconda/cudatoolkit\
+https://anaconda.org/anaconda/cudatoolkit\ 
 
-- Install cudnn by anaconda: https://anaconda.org/anaconda/cudnn
+(Choose the right version with TF: https://www.tensorflow.org/install/source#linux)
+
+- Install cudnn by anaconda: 
+
+https://anaconda.org/anaconda/cudnn
 
 2/ Install the virtualenv and virtualenvwrapper: 
 
-- https://www.pyimagesearch.com/2017/09/27/setting-up-ubuntu-16-04-cuda-gpu-for-deep-learning-with-python/
+https://www.pyimagesearch.com/2017/09/27/setting-up-ubuntu-16-04-cuda-gpu-for-deep-learning-with-python/
+- Work with virtualenv and virtualenvwrapper: 
+  
+  https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html#showvirtualenv
 
-  Work with virtualenv and virtualenvwrapper: 
-- https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html#showvirtualenv
-
-Make a new virtual environment:
+- Make a new virtual environment:
 
 .. code:: bash 
-
-    $ mkvirtualenv env_name -p python3
+    # In old environment:
     $ pip freeze > requirements.txt #Extract pip requirement file
+    
+    $ mkvirtualenv env_name -p python3
+    # In new environment:
     $ pip install -r requirements.txt
 
-Check CUDA:
+- Check CUDA:
 
 .. code:: bash
 
     $ ncvv --version
 
-Check Tensorflow 1.x:
+- Check Tensorflow 1.x:
 
 .. code:: python
 
@@ -127,9 +134,18 @@ Check Tensorflow 1.x:
     b = tf.constant(5)
     sess = tf.Session()
     exit()
+   
+- Check Tensorflow 2.x:
+
+.. code:: python
+
+	import tensorflow as tf
+	tf.__version__ # Result should be '2.2.0-rc2'
+	tf.config.list_physical_devices('GPU') # should list all available GPUs
 
 
-7. Install VSCode
+
+7. Install VSCode (Recommend Code Editor)
 -----------------
 - Download *VSCode.deb*
 
@@ -140,7 +156,9 @@ Check Tensorflow 1.x:
 8. Install GitKraken
 --------------------
 
-9. Install Sublime Text 3
+https://support.gitkraken.com/how-to-install/
+
+9. Install Sublime Text 3 (Optional)
 -------------------------
 
 .. code:: bash
@@ -167,14 +185,3 @@ Check Tensorflow 1.x:
 10. Install PyTorch
 -------------------------
 - `PyTorch <https://pytorch.org/get-started/locally/>`__
-
-.. code:: bash
-
-	$ pip3 install https://download.pytorch.org/whl/cu100/torch-1.1.0-cp35-cp35m-linux_x86_64.whl
-   	$ pip3 install https://download.pytorch.org/whl/cu100/torchvision-0.3.0-cp35-cp35m-linux_x86_64.whl
-	
-.. image:: images/torch_install.jpg
-    :width: 200px
-    :align: center
-    :height: 100px
-    :alt: alternate text
