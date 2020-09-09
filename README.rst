@@ -105,8 +105,8 @@ https://tecadmin.net/install-python-3-6-ubuntu-linuxmint/
 https://docs.python-guide.org/starting/install3/linux/
 
 - Install the virtualenv and virtualenvwrapper:
-
 https://www.pyimagesearch.com/2017/09/27/setting-up-ubuntu-16-04-cuda-gpu-for-deep-learning-with-python/
+
 - Work with virtualenv and virtualenvwrapper: 
   
   https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html#showvirtualenv
