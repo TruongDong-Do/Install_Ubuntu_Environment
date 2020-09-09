@@ -109,13 +109,14 @@ https://anaconda.org/anaconda/cudnn
 - Make a new virtual environment:
 
 .. code:: bash 
+
     # In old environment:
     $ pip freeze > requirements.txt #Extract pip requirement file
     
     $ mkvirtualenv env_name -p python3
     # In new environment:
     $ pip install -r requirements.txt
-
+    
 - Check CUDA:
 
 .. code:: bash
