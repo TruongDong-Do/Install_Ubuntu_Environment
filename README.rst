@@ -22,7 +22,7 @@ Docs <https://install-ubuntu-environment.readthedocs.io/en/latest/>`__
 
 0. Create boot USB:
 -----------------------
-- Download Ubuntu 16.04 LTS
+- Download Ubuntu 18.04 LTS
 - Use Universal USB Installer to create boot USB (Ubuntu --> Fat32)
 
 1. Boot option:
@@ -32,7 +32,7 @@ Docs <https://install-ubuntu-environment.readthedocs.io/en/latest/>`__
 2. DISK:
 --------
 - Chose something else option when installing.
-- swap area: Ram
+- swap area: 4 x Ram
 - ext4: /
 
 3. Install Google Chrome:
@@ -66,32 +66,39 @@ Docs <https://install-ubuntu-environment.readthedocs.io/en/latest/>`__
 
     $ sudo reboot
 
-6. Install Nvidia Driver
+6. Install Nvidia Driver/ CUDA / CuDNN
 ------------------------
-
-- Setting --> Software & Updates --> Additional Drivers --> Nvidia -- Apply changes.
-- Test NVIDIA Driver:
-
-.. code:: bash
-
-    $ nvidia-smi
-
 Install python
 https://tecadmin.net/install-python-3-6-ubuntu-linuxmint/
 
 Follow these instrutions to install tensorflow-gpu:(CUDA 10 + CuDNN 7)
 =============================================================
-- https://www.tensorflow.org/install/gpu
-- https://www.pyimagesearch.com/2017/09/27/setting-up-ubuntu-16-04-cuda-gpu-for-deep-learning-with-python/
-Work with conda:
+- https://www.tensorflow.org/install/gpu (*official)
+
+- Check NVIDIA Driver:
+
+.. code:: bash
+
+    $ nvidia-smi
+
+Here we have 2 options to work with environments:
+
+1/ Install conda:
+
+- https://docs.anaconda.com/anaconda/install/linux/
+
+  Work with conda: ( create new conda environment)
 - https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/\
 
 - Install cudatoolkit by anaconda: https://anaconda.org/anaconda/cudatoolkit\
 
 - Install cudnn by anaconda: https://anaconda.org/anaconda/cudnn
 
+2/ Install the virtualenv and virtualenvwrapper: 
 
-Work with virtualenv and virtualenvwrapper: 
+- https://www.pyimagesearch.com/2017/09/27/setting-up-ubuntu-16-04-cuda-gpu-for-deep-learning-with-python/
+
+  Work with virtualenv and virtualenvwrapper: 
 - https://virtualenvwrapper.readthedocs.io/en/latest/command_ref.html#showvirtualenv
 
 Make a new virtual environment:
