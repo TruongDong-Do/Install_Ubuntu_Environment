@@ -139,7 +139,7 @@ https://www.pyimagesearch.com/2017/09/27/setting-up-ubuntu-16-04-cuda-gpu-for-de
 
 .. code:: bash
 
-    $ ncvv --version
+    $ nvcc --version
 
 - Check Tensorflow 1.x:
 
