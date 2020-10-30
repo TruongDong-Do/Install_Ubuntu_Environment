@@ -204,3 +204,16 @@ https://support.gitkraken.com/how-to-install/
 10. Install PyTorch
 -------------------------
 - `PyTorch <https://pytorch.org/get-started/locally/>`__
+
+Remove the old NVIDIA Drivers:
+-------------------------
+
+.. code:: bash
+
+	sudo apt purge "libcublas*" "cuda-*" cuda
+	sudo apt purge "nsight-*" nvidia-modprobe
+	sudo apt purge "*nvidia*"
+	
+	sudo apt-get --purge -y remove 'cuda*'
+	sudo apt-get --purge -y remove 'nvidia*'
+	sudo reboot
